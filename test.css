@@ -188,6 +188,20 @@ footer {
     display: flex;
 }
 
+.mini-text {
+    color: #919496;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    margin-top: 100px;  
+    justify-content: center;
+}
+
+.mini-text p {
+    margin-left: 30px;
+}
+
+
 
 
 /* NAVBAR */
