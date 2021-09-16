@@ -1,2 +1,17 @@
-# Uppgift 1
- Skol arbete
+# Uppgift | Spotify
+Spotify
+
+
+
+
+
+
+## Developers 
+
+`Felix`
+`Emil`
+`Erik`
+
+
+
+
