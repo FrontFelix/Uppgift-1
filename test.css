@@ -1,12 +1,14 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .navbar {
     background-color: black;
 }
 
 .top {
+    overflow: hidden;
     position: relative;
     width: 100%;
     background-color: #2941AB;
@@ -32,4 +34,63 @@ body {
     float: right;
     text-align: right;
     color: white;
+}
+.top h1 {
+    color: #1ED760;
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.list {
+    padding-top: 130px;
+}
+.every {}
+
+footer {
+    background-color: black;
+    padding: 40px;
+    display: flex;
+}
+
+.footer-img {
+    width: 100px;
+}
+
+.top button {
+    font-weight: 500;
+    background-color: #1ED760;
+    color: #2941AB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.top p {
+    padding-top: 20px;
+    color: #1ED760;
+    text-align: center;
+}
+.circle1 {
+    width: 300px;
+    height: 300px;
+    background-color: #1ED760;
+    border-radius: 50%;
+    position: absolute;
+    top: -150px;
+    right: -150px;
+}
+.circle2 {
+    width: 300px;
+    height: 300px;
+    background-color: #1ED760;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+    left: -150px;
 }
