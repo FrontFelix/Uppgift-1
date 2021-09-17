@@ -214,6 +214,11 @@ footer {
     margin-left: 30px;
 }
 
+.mini-text p:hover, .icons i:hover, .fot-div p:hover, .navbar a:hover {
+    color: #1ED760;
+    cursor: pointer;
+}
+
 
 
 
