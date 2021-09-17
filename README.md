@@ -17,10 +17,10 @@ Länk till [Orginal Hemsidan](https://www.spotify.com/se/ ).
 ![Orginal Bild](./img/Remake.png "Orginal Bild")
 
 ## Vår Hemsida (Ipad)
-![Orginal Bild](./img/Remake-iPad "Orginal Bild")
+![Orginal Bild](./img/Remake-iPad.png "Orginal Bild")
 
 ## Vår Hemsida (Iphone)
-![Orginal Bild](./img/Remake-iPhone "Orginal Bild")
+![Orginal Bild](./img/Remake-iPhone.png "Orginal Bild")
 
 
 
