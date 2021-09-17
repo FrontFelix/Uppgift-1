@@ -224,6 +224,7 @@ footer {
 
 .mini-text p {
     margin-right: 30px; 
+
 }
 
 .mini-text p:hover, .icons i:hover, .fot-div p:hover, .navbar a:hover {
@@ -231,9 +232,7 @@ footer {
     cursor: pointer;
 }
 
-.copyright {
-    color: #919496;
-}
+
 
 
 /* NAVBAR */
