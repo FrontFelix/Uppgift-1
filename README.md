@@ -14,7 +14,7 @@ Länk till [Orginal Hemsidan](https://www.spotify.com/se/ ).
 
 
 ## Vår Hemsida
-![Orginal Bild](./img/remake.png "Orginal Bild")
+![Orginal Bild](./img/Remake.png "Orginal Bild")
 
 
 
