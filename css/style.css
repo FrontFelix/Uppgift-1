@@ -71,7 +71,10 @@ body {
     padding-top: 300px;
 }
 
-.every {}
+
+.copy1 {
+    width: 130px;
+}
 
 footer {
     background-color: black;
@@ -225,7 +228,9 @@ footer {
 }
 .copyright {
     align-self: center;
+    margin-bottom: 40px;
 }
+
 .sverige {
     align-self: center;
     color: #919496;
@@ -233,18 +238,32 @@ footer {
     font-weight: 500;
 }
 
+
 .mini-text {
-    align-self: center;
+    align-self: right;
     color: #919496;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.mini-text p {
+    align-self: center;
+    font-size: 10px;
+}
+
+.copy1 {
+    align-self: center;
+}
+
+.sverige {
+    margin-top: 20px;
 }
 
 .m-text p {
+    align-self: center;
     margin-right: 30px; 
 }
 
@@ -253,22 +272,9 @@ footer {
     cursor: pointer;
 }
 
-.copyright p {
-    color: #919496;
-    
-}
 
 
-/* NAVBAR */
-@media only screen and (min-width: 800px) {
-    .footer {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    
-}
-
+/* MEDIA Q */
 
 @media only screen and (min-width: 480px) {
     .top {
@@ -281,18 +287,26 @@ footer {
     }
 }
 
-@media (min-width: 1200px) {
-    .top {
-        background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
-        background-size: 175%;
-        background-position: 46% 4%;
-        max-height: 846px;
+
+@media only screen and (min-width: 800px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
     }
+    .mini-text p {
+        font-size: 12px;
+    }
+    
 }
 
-/* NAVBAR */
-
 @media only screen and (min-width: 1000px) {
+    .sverige {
+        text-align: right;
+        align-self: center;
+    }
+    .copy1 {
+        text-align: right !important;
+    }
     .nav-right i {
         display: none;
     }
@@ -335,6 +349,17 @@ footer {
     
 }
 
+
+@media (min-width: 1200px) {
+    .top {
+        background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+        background-size: 175%;
+        background-position: 46% 4%;
+        max-height: 846px;
+    }
+}
+
+
 @media only screen and (min-width: 1350px) {
     .nav-content {
         width: 60%;
@@ -365,13 +390,15 @@ footer {
     }
 
     .footer {
-        width: 60% !important;
+        width: 80% !important;
         margin: 0 auto;
     }
     .mini-text {
-        width: 60% !important;
+        width: 80% !important;
         margin: 0 auto;
         margin-top: 100px;
         justify-content: left;
     }
 }
+
+/* MEDIA Q */
