@@ -113,7 +113,8 @@ body {
     text-align: center;
 }
 
-.list {
+
+.top h1:first-child {
     padding-top: 300px;
 }
 
@@ -357,12 +358,12 @@ footer {
         font-size: 120px;
     }
 
-    .list {
+    .top h1:first-child {
         padding-right: 300px !important;
-        padding-top: 180px !important;
+        padding-top: 120px !important;
     }
 
-    .every {
+    .top h1:last-child {
         margin-top: -50px !important;
         padding-left: 300px !important;
     }
