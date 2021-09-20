@@ -80,7 +80,7 @@ body {
 
 .top h1 {
     color: #1ED760;
-    font-size: 48px;
+    font-size: 55px;
     font-weight: 900;
     text-align: center;
 }
@@ -116,7 +116,7 @@ body {
 
 
 .top h1:first-child {
-    padding-top: 20px;
+    padding-top: 300px;
 }
 
 
@@ -262,6 +262,7 @@ footer {
 /* MEDIA Q == LARGERS SCREENS */
 
 /* FROM 480PX */
+
 @media only screen and (min-width: 480px) {
     .top {
         /* MELLAN CIRKELN */
@@ -271,10 +272,15 @@ footer {
         background-position: right 40% center;
     }
 
+    .top h1:first-child {
+        padding-top: 220px !important;
+    }
+
     .top h1 {
-        font-size: 90px;
+        font-size: 78px;
     }
 }
+
 
 /* FROM 480PX */
 
@@ -289,6 +295,17 @@ footer {
         font-size: 12px;
     }
 
+}
+
+@media only screen and (min-width: 820px) {
+
+    .top h1 {
+        font-size: 90px;
+    }
+
+    .top h1:first-child {
+        padding-top: 150px;
+    }
 }
 
 /* FROM 800PX */
@@ -363,51 +380,50 @@ footer {
         font-family: sans-serif;
         font-size: 120px;
     }
-    
+
     .top button {
         margin-bottom: 170px;
     }
+}
 
-    /* FROM 1200PX */
+/* FROM 1200PX */
 
-    /* FROM 1350PX */
-    @media only screen and (min-width: 1350px) {
-        .nav-content {
-            width: 80%;
-        }
-
-        .top h1:first-child {
-            padding-right: 300px !important;
-            padding-top: 120px !important;
-        }
-
-        .top h1:last-child {
-            margin-top: -50px !important;
-            padding-left: 300px !important;
-        }
-
-        .top p {
-            font-size: 20px;
-            font-weight: 500;
-        }
-
-        .top button {
-            text-transform: uppercase;
-        }
-
-        .footer {
-            width: 80% !important;
-            margin: 0 auto;
-        }
-
-        .mini-text {
-            width: 80% !important;
-            margin: 0 auto;
-            margin-top: 100px;
-            justify-content: left;
-        }
+/* FROM 1350PX */
+@media only screen and (min-width: 1350px) {
+    .nav-content {
+        width: 80%;
     }
 
-    /* FROM 1350PX */
+    .top h1:first-child {
+        padding-right: 300px !important;
+        padding-top: 120px !important;
+    }
 
-    /* MEDIA Q == LARGERS SCREENS */
+    .top h1:last-child {
+        margin-top: -50px !important;
+        padding-left: 300px !important;
+    }
+
+    .top p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .top button {
+        text-transform: uppercase;
+    }
+
+    .footer {
+        width: 80% !important;
+        margin: 0 auto;
+    }
+
+    .mini-text {
+        width: 80% !important;
+        margin: 0 auto;
+        margin-top: 100px;
+        justify-content: left;
+    }
+}
+
+/* FROM 1350PX */
