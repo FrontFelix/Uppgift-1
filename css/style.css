@@ -282,6 +282,18 @@ footer {
 }
 
 
+@media only screen and (min-width: 750px) and (max-width: 1000px) {
+    .footer {
+        flex-wrap: wrap;
+        justify-content: space-between !important;
+    }
+    .footer-div1, .footer-div5 {
+        width: 100%;
+    }
+}
+
+
+
 /* FROM 480PX */
 
 /* FROM 800PX */
